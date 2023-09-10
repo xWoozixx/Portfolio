@@ -1,34 +1,58 @@
-body {
-    font-family: Arial, sans-serif;
+/*
+* {
+    border: 1px solid red;
+}
+/* Réinitialisation de la marge et du padding pour une meilleure cohérence entre les navigateurs */
+body, ul {
     margin: 0;
     padding: 0;
-    background-color: #1e1e1e;
-    color: #fff;
 }
 
-.header {
-    background-color: #2ecc71;
-    padding: 10px 0;
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Couleur de fond noire */
+    color: #fff; /* Texte principal en blanc */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles du header (partie avec le menu) */
+header {
+    background-color: #ec1c24; /* Rouge */
+    padding: 30px 0;
     text-align: center;
 }
 
-.menu {
-    background-color: #27ae60;
-    padding: 10px 0;
-    text-align: center;
+/* Styles du menu */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 .menu a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    background-color: #141414; /* Couleur de fond noire */
+    padding: 20px 40px; /* Ajout de rembourrage pour les boutons du menu */
+    border-radius: 50px; /* Coins arrondis pour les boutons */
+    transition: background-color 0.3s, color 0.3s; /* Transition de couleur de fond et de texte pour l'effet de survol */
+    font-size: 20   px; /* Taille de police ajustée */
 }
 
+.menu a:hover {
+    background-color: #ec1c24; /* Rouge au survol */
+    color: #fff; /* Texte en blanc au survol */
+    border: 2px solid #141414; /* Bordure noire au survol */
+
+}
+
+/* Styles pour le contenu */
 .content {
     padding: 20px;
-}
-
-.image-gallery img {
-    max-width: 100%;
-    margin-bottom: 20px;
 }

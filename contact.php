@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Site Wakfu Thème - Contact</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<?php include 'head.php'; ?>
+<?php include 'header.php'; ?>
 <body>
-    <?php include 'menu.php'; ?>
-    
     <div class="content">
-        <h1>Contactez-nous</h1>
-        <p>N'hésitez pas à nous contacter si vous avez des questions ou des commentaires sur notre site Wakfu Thème.</p>
+        <h1>Contactez-moi</h1>
+        <p>N'hésitez pas à me contacter</p>
     </div>
 </body>
 </html>
