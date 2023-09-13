@@ -1,7 +1,7 @@
 <?php include 'head.php'; ?>
 <?php include 'header.php'; ?>
 <body>
-    <div class="content">
+    <div class="content" id="contact">
         <h1>Vous pouvez me contacter</h1><br>
         <ul>
             <p>Par Mail :</p>

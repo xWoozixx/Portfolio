@@ -2,6 +2,7 @@
 * {
     border: 1px solid red;
 }
+
 /* Réinitialisation de la marge et du padding pour une meilleure cohérence entre les navigateurs */
 body, ul {
     margin: 0;
@@ -55,4 +56,27 @@ header {
 /* Styles pour le contenu */
 .content {
     padding: 20px;
+}
+
+/* Styles pour les liens dans le contenu */
+.content a {
+    color: #00a8e0; /* Couleur de texte bleue */
+    text-decoration: none; /* Retirer soulignement des liens */
+    transition: color 0.3s, text-decoration 0.3s; /* Transition de couleur et de soulignement au survol */
+}
+
+.content a:hover {
+    color: #0080ad; /* Couleur de texte bleue plus foncée au survol */
+    text-decoration: none; /* Suppression du soulignement au survol */
+}
+#contact {
+    text-align: center;
+    font-size: 25px; /* Taille de police ajustée */
+
+    
+}
+#contact ul{
+    text-align: left;
+    margin-left: 400px;
+    
 }
