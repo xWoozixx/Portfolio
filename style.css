@@ -70,6 +70,7 @@ header {
     text-decoration: none; /* Suppression du soulignement au survol */
 }
 #contact {
+    color: #27f41c; /* couleur du texte */
     text-align: center;
     font-size: 25px; /* Taille de police ajustée */
 
@@ -79,4 +80,39 @@ header {
     text-align: left;
     margin-left: 400px;
     
+}
+/* Styles pour la div contenant le texte au dessus images */
+.images{
+    text-align: center; /* Centre le texte horizontalement */
+}
+/* Styles pour la div contenant les images */
+.image-parcours {
+    /*border: 5px solid rgb(72, 255, 0); utile pour voir les div*/
+    display: flex; /* Utilise Flexbox pour aligner les éléments horizontalement */
+    justify-content: center; /* Centre les éléments horizontalement dans le conteneur */
+    align-items: center; /* Centre les éléments verticalement dans le conteneur */
+ 
+    max-width: 1000px; /* Définit une largeur maximale pour la div (ajustez selon vos besoins) */
+    margin: 0 auto; /* Centre la div horizontalement sur la page */
+}
+
+/* Styles pour les images à l'intérieur de la div */
+.image-parcours img {
+    max-width: 100%; /* Les images ne dépasseront pas la largeur de leur conteneur */
+    height: auto; /* Garantit que les images sont proportionnelles et ne sont pas déformées */
+    display: block; /* Supprime l'espace réservé pour le texte sous les images */
+    padding: 10px; /* Ajout d'un peu d'espacement autour des images (facultatif) */
+}
+
+#dev{
+    padding: 0px; /* */
+    max-width: 100%; /* Garantit que l'image ne dépasse pas la largeur de son conteneur */
+    height: auto; /* Garantit que l'image est proportionnelle et ne sera pas déformée */
+    width: 350px; /* Définit une largeur spécifique (ajustez selon vos besoins) */    
+}
+#Titre-1{
+    color: #cd141a; /* couleur du texte */
+    text-align: left;
+    margin-left: 400px;
+    font-size: 50px; /* Taille de police ajustée */
 }

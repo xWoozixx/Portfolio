@@ -2,7 +2,7 @@
 <?php include 'header.php'; ?>
 <body>
     <div class="content">
-        <h1>Ce site est en cours de développement</h1>
+        <h1 id="Titre-1">Ce site est en cours de développement</h1>
         <p>Texte</p>
     </div>
 </body>
