@@ -1,13 +1,19 @@
 <?php include 'head.php'; ?>
 <?php include 'header.php'; ?>
-<body>    
+
+<body>
     <div class="content">
-        <h1>Titre</h1>
-        <div class="image-gallery">
-            <img src="images/image1.jpg" alt="Image 1">
-            <img src="images/image2.jpg" alt="Image 2">
-            <!-- Ajoutez davantage d'images ici -->
+        <h1 id="Titre-1">Voici un récapitulatif des étapes principales</h1><br><br>
+
+        <div class="images">
+            <!-- Cette div permet de mettre le texte au dessus des images -->
+
+            <h1>2015</h1>
+            <div class="image-parcours">
+                <img src="images/kanban.png" alt="kanban">
+            </div>
         </div>
     </div>
 </body>
+
 </html>
