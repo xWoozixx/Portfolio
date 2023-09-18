@@ -12,7 +12,6 @@
             <div class="image-parcours">
                 <img src="images/2015-Laureats-AMC.jpg" alt="maths">
                 <img src="images/python.png" alt="Python">
-                <!-- Ajoutez davantage d'images ici -->
             </div>
             <br><br>
             <h1>2022 - BTS SIO option SLAM</h1>
@@ -23,7 +22,6 @@
 
             <div class="image-parcours">
                 <img src="images/kube_docker.png" alt="Kubernetes & Docker">
-                <!-- Ajoutez davantage d'images ici -->
             </div>
         </div>
 

@@ -19,14 +19,22 @@ body {
     /* Texte principal en blanc */
     margin: 0;
     padding: 0;
+    margin-top: 50px;
 }
 
 /* Styles du header (partie avec le menu) */
 header {
-    background-color: #ec1c24;
+    background-color: rgb(236, 28, 36);
+    background-color: rgba(236, 28, 36, 75%);
     /* Rouge */
     padding: 30px 0;
     text-align: center;
+    position: fixed; /* Position fixe */
+    width: 100%; /* Largeur à 100% pour occuper toute la largeur de la fenêtre */
+    top: 0; /* Fixe le haut du header à la partie supérieure de la fenêtre */
+    left: 0; /* Fixe la gauche du header à la partie gauche de la fenêtre */
+    z-index: 1000; /* Contrôle la position en z-index pour les éléments superposés */
+
 }
 
 /* Styles du menu */
