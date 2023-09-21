@@ -63,7 +63,13 @@
 
             <h1>Texte</h1>
             <div class="image-parcours">
-                <img src="images/kanban.png" alt="kanban">
+                <img src="images/kubernetes/kanban.png" alt="kanban">
+            </div>
+            <div class="image-parcours">
+                <img src="images/kubernetes/deploy.png" alt="kanban">
+            </div>
+            <div class="image-parcours">
+                <img src="images/kubernetes/pods.png" alt="kanban">
             </div>
         </div>
     </div>
