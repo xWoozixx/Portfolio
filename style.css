@@ -51,7 +51,7 @@ header {
     color: #fff;
     text-decoration: none;
     background-color: #3d3d3d;
-    /* Couleur de fond noire */
+    /* Couleur de fond gris */
     padding: 20px 40px;
     /* Ajout de rembourrage pour les boutons du menu */
     border-radius: 50px;
@@ -64,12 +64,7 @@ header {
 
 .menu a:hover {
     background-color: #322e2e;
-    /* Rouge au survol */
-    color: #fff;
-    /* Texte en blanc au survol */
-    border: 1.5px solid #ffffff;
-    /* Bordure noire au survol */
-
+    /* foncé au survol */
 }
 
 /* Styles pour le contenu */
@@ -100,6 +95,7 @@ header {
     text-align: center;
     font-size: 25px;
     /* Taille de police ajustée */
+    scale: 120%;
 
 
 }
@@ -115,7 +111,9 @@ header {
     text-align: center;
     /* Centre le texte horizontalement */
 }
-
+#maths{
+    width: 1000px;
+}
 /* Styles pour la div contenant les images */
 .image-parcours {
     /*border: 5px solid rgb(72, 255, 0); utile pour voir les div*/
@@ -126,7 +124,7 @@ header {
     align-items: center;
     /* Centre les éléments verticalement dans le conteneur */
 
-    max-width: 1000px;
+    max-width: 1500px;
     /* Définit une largeur maximale pour la div (ajustez selon vos besoins) */
     margin: 0 auto;
     /* Centre la div horizontalement sur la page */
@@ -145,14 +143,10 @@ header {
 }
 
 #dev {
-    padding: 0px;
-    /* */
-    max-width: 100%;
-    /* Garantit que l'image ne dépasse pas la largeur de son conteneur */
-    height: auto;
-    /* Garantit que l'image est proportionnelle et ne sera pas déformée */
-    width: 350px;
-    /* Définit une largeur spécifique (ajustez selon vos besoins) */
+    width: 400px;
+}
+#kube {
+    width: 600px;
 }
 
 #Titre-1 {
@@ -162,4 +156,24 @@ header {
     margin-left: 15%;
     font-size: 50px;
     /* Taille de police ajustée */
+}
+#forrester{
+    width: 900px;
+}
+#gartner{
+    width: 1000px;
+}
+#appanyrun{
+    width: 1400px;
+}
+#pdfinfo{
+    width: 1500px;
+}
+#deploy{
+    width: 1500px;
+
+}
+#pods{
+    width: 1500px;
+
 }

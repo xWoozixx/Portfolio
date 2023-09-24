@@ -22,13 +22,13 @@
             <br><br><h1>Synthèse des informations trouvées par AppAnyRun  </h1>
 
             <div class="image-parcours">
-                <img src="images/appanyrun.png" alt="appanyrun">
+                <img id="appanyrun" src="images/appanyrun.png" alt="appanyrun">
             </div>
 
             <br><br><h1>Synthèse des informations du pdf (trouvés grace à l'outil poppler utils)</h1>
 
             <div class="image-parcours">
-                <img src="images/pdfinfo.png" alt="pdfinfo">
+                <img id="pdfinfo" src="images/pdfinfo.png" alt="pdfinfo">
             </div>
         </div>
         
@@ -40,17 +40,30 @@
             <h1>Etude de Benchmark reconnus</h1>
 
             <div class="image-parcours">
-                <img src="images/forrester.png" alt="kanban">
+                <img id="forrester" src="images/forrester.png" alt="forrester">
             </div>
 
             <div class="image-parcours">
-                <img src="images/gartner.png" alt="kanban">
+                <img id="gartner" src="images/gartner.png" alt="gartner">
             </div>
 
             <br><br><h1>Tableau de synthèse</h1>
 
             <div class="image-parcours">
-                <img src="images/tableauRapportEtudes.png" alt="kanban">
+                <img src="images/tableauRapportEtudes.png" alt="tableauRapportEtudes">
+            </div>
+
+        </div>
+
+        <br><br>
+        <h1 id="Titre-1">Centreon</h1><br><br>
+        <div class="images">
+            <!-- Cette div permet de mettre le texte au dessus des images -->
+
+            <h1>Insérer une image</h1>
+
+            <div class="image-parcours">
+                <img id="forrester" src="images/forrester.png" alt="forrester">
             </div>
 
         </div>
@@ -66,10 +79,11 @@
                 <img src="images/kubernetes/kanban.png" alt="kanban">
             </div>
             <div class="image-parcours">
-                <img src="images/kubernetes/deploy.png" alt="kanban">
+                <img id="deploy" src="images/kubernetes/deploy.png" alt="deploy">
             </div>
+            <br><br>
             <div class="image-parcours">
-                <img src="images/kubernetes/pods.png" alt="kanban">
+                <img id="pods" src="images/kubernetes/pods.png" alt="pods">
             </div>
         </div>
     </div>
