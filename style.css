@@ -28,11 +28,16 @@ header {
     /* Rouge */
     padding: 30px 0;
     text-align: center;
-    position: fixed; /* Position fixe */
-    width: 100%; /* Largeur à 100% pour occuper toute la largeur de la fenêtre */
-    top: 0; /* Fixe le haut du header à la partie supérieure de la fenêtre */
-    left: 0; /* Fixe la gauche du header à la partie gauche de la fenêtre */
-    z-index: 1000; /* Contrôle la position en z-index pour les éléments superposés */
+    position: fixed;
+    /* Position fixe */
+    width: 100%;
+    /* Largeur à 100% pour occuper toute la largeur de la fenêtre */
+    top: 0;
+    /* Fixe le haut du header à la partie supérieure de la fenêtre */
+    left: 0;
+    /* Fixe la gauche du header à la partie gauche de la fenêtre */
+    z-index: 1000;
+    /* Contrôle la position en z-index pour les éléments superposés */
 
 }
 
@@ -111,9 +116,11 @@ header {
     text-align: center;
     /* Centre le texte horizontalement */
 }
-#maths{
+
+#maths {
     width: 1000px;
 }
+
 /* Styles pour la div contenant les images */
 .image-parcours {
     /*border: 5px solid rgb(72, 255, 0); utile pour voir les div*/
@@ -145,6 +152,7 @@ header {
 #dev {
     width: 400px;
 }
+
 #kube {
     width: 600px;
 }
@@ -157,23 +165,29 @@ header {
     font-size: 50px;
     /* Taille de police ajustée */
 }
-#forrester{
+
+#forrester {
     width: 900px;
 }
-#gartner{
+
+#gartner {
     width: 1000px;
 }
-#appanyrun{
+
+#appanyrun {
     width: 1400px;
 }
-#pdfinfo{
-    width: 1500px;
-}
-#deploy{
+
+#deploy {
     width: 1500px;
 
 }
-#pods{
+
+#pods {
     width: 1500px;
 
+}
+
+#centreon {
+    width: 1300px;
 }
