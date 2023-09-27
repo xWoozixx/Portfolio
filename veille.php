@@ -3,7 +3,7 @@
 
 <body>
     <div class="content">
-        <h1 id="Titre-1">Voici des exemples d'articles qui ont attirés mon attention</h1><br><br>
+        <h1 id="Titre-1">Voici des exemples d'articles qui ont attirés mon </h1><br><br>
 
         <div class="images">
             <!-- Cette div permet de mettre le texte au dessus des images -->
@@ -19,6 +19,31 @@
             <a href="https://bigmedia.bpifrance.fr/decryptages/ladn-le-futur-durable-du-stockage-de-donnees-numeriques" target="_blank">L'article lié au sujet</a>
 
             <br><br>
+
+            <h1>La reRAM</h1>
+            <div id="veille1" class="image-parcours">
+            <a href="https://youtu.be/7MJybRBlqiM?si=796i7h4M4iCGBAWW&t=120" target="_blank">
+                <img src="images/veille/reRAM.png" alt="veille1">
+            </a><br>
+            </div>
+            <br><br>
+            
+            <a href="https://www.fortiffsere.fr/prix-stockage-va-bientot-seffondrer-reram/" target="_blank">L'article lié au sujet</a>
+
+            <br><br>
+
+            <h1>Un chatGPT on premise ?</h1>
+            <div id="veille1" class="image-parcours">
+            <a href="https://youtu.be/uvnZOjPeV6M?si=u9zcgMxS-z5OGWTG" target="_blank">
+                <img src="images/veille/GPT-local.png" alt="veille1">
+            </a><br>
+            </div>
+            <br><br>
+            
+            <a href="https://medium.com/@martin-thissen/llama-alpaca-chatgpt-on-your-local-computer-tutorial-17adda704c23" target="_blank">Un article lié au sujet</a>
+
+            <br><br>
+
             <h1>Des hackeurs ingénieux ?</h1>
 
             <a href="https://www.macg.co/ailleurs/2023/04/la-signature-thermique-des-touches-dun-clavier-peut-reveler-un-mot-de-passe-136425" target="_blank">

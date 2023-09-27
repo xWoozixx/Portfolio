@@ -149,6 +149,9 @@ header {
     /* Ajout d'un peu d'espacement autour des images (facultatif) */
 }
 
+#tab {
+    font-size: 30px;
+}
 #dev {
     width: 400px;
 }
