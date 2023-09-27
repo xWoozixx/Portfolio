@@ -68,6 +68,16 @@
         <div class="images">
             <!-- Cette div permet de mettre le texte au dessus des images -->
 
+            <h1>Un besoin d'évolution</h1>
+            <div class="image-parcours">
+                <img id="schema" src="images/kubernetes/BesoinEvolution-before.drawio.png" alt="schemaBefore">
+            </div>
+            <br>
+            <div class="image-parcours">
+                <img id="schema" src="images/kubernetes/BesoinEvolution-after.drawio.png" alt="schemaAfter">
+            </div>
+            <br>
+
             <h1>Autoformation</h1>
             <div class="image-parcours">
                 <img src="images/kubernetes/pluralsight.png" alt="pluralsight">
